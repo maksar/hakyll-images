@@ -40,7 +40,7 @@ library
   ghc-options: -Wall -Wcompat
   build-depends:
       JuicyPixels       >= 3   && <4
-    , JuicyPixels-extra >  0.3 && <1
+    , JuicyPixels-extra >=  0.5.2 && <1
     , base              >= 4.8 && <5
     , binary            >= 0.5 && <1
     , bytestring        >= 0.9 && <1
@@ -68,7 +68,7 @@ test-suite spec
   build-depends:
       HUnit-approx      >= 1    && <2
     , JuicyPixels       >= 3    && <4
-    , JuicyPixels-extra >  0.3  && <1
+    , JuicyPixels-extra >=  0.5.2  && <1
     , base              >= 4.8  && <5
     , binary            >= 0.5  && <1
     , bytestring        >= 0.9  && <1
